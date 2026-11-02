@@ -1,19 +1,18 @@
 # PA_A3_Sistem-Penjualan-Merchandise-Komunitas
 
+# Anggota dan Peran :
+| Anggota | Peran |
+| --- | --- |
+| Salwa Annisa Nur Fadhila	(2609116010) | --- |
+| Muhammad Favian Daffa	(2609116021) | --- |
+| Mutiara Zyahra Al Gazali (2609116026) | --- |
+| Fahry Alfisyahr Razak (2609116028) | --- |
+
+# Sistem Penjualan Komunitas
+
 Program Sistem Penjualan Merchandise BEM FT merupakan aplikasi berbasis Python yang dirancang untuk mempermudah pengelolaan dan penjualan merchandise. Program ini memiliki dua jenis pengguna, yaitu admin dan user, dengan hak akses yang berbeda. Admin dapat mengelola data barang melalui fitur tambah, lihat, ubah, dan hapus (CRUD), melihat data pengguna, memeriksa riwayat transaksi, serta melihat laporan penjualan. Sementara itu, user dapat melihat barang, melakukan top up saldo, membeli merchandise, dan melihat riwayat transaksi pribadi.
 
 Proses pembelian dilakukan menggunakan saldo pengguna. Program akan memeriksa ketersediaan stok dan kecukupan saldo sebelum memproses pembayaran. Jika transaksi berhasil, saldo dan stok barang akan diperbarui, data transaksi disimpan, dan invoice ditampilkan sebagai bukti pembayaran. Program menggunakan Python dan file JSON untuk mengolah serta menyimpan data pengguna, barang, dan transaksi. Selain itu, program menerapkan fungsi, percabangan, perulangan, validasi input, dan penanganan kesalahan agar proses penjualan berjalan secara terstruktur.
-
-
-# Anggota dan Peran :
-1. Salwa Annisa Nur Fadhila	(2609116010) :
-2. Muhammad Favian Daffa	(2609116021) :
-3. Mutiara Zyahra Al Gazali (2609116026) :
-4. Fahry Alfisyahr Razak (2609116028) :
-
-# Deskripsi dan Tujuan
-
-Program Sistem Penjualan Merchandise BEM FT merupakan program berbasis Python yang digunakan untuk mengelola penjualan merchandise. Program ini memiliki beberapa fitur, seperti registrasi akun, login, pengelolaan barang, pembelian barang, pengisian saldo, pencatatan transaksi, dan pembuatan laporan penjualan. Untuk membuat program ini, diperlukan beberapa library, fungsi, struktur data, dan file penyimpanan agar setiap fitur dapat berjalan sesuai dengan kebutuhan.
 
 **Fitur**
 - Menu utama menampilkan pilihan login, registrasi, dan keluar. Program memproses pilihan pengguna dan menampilkan pesan jika pilihan tidak valid.
