@@ -129,5 +129,10 @@ Dalam proses pembelian, sistem memeriksa ketersediaan stok dan kecukupan saldo. 
 
 
 # Daftar Fitur per Role
+-Untuk Admin, Ada Fitur CRUD Lengkap, Yaitu:
+-Kelola Barang
 
-# Screenshot Output
+
+
+
+
