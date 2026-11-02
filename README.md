@@ -65,10 +65,10 @@ Program Sistem Penjualan Merchandise BEM FT merupakan program berbasis Python ya
 | :--- | :---: | :---: |
 | 1 | os | Digunakan untuk membersihkan tampilan terminal melalui fungsi os.system("cls") agar menu program terlihat lebih rapi |
 | 2 | time | Digunakan untuk memberikan jeda tampilan menggunakan time.sleep() dan mencatat waktu transaksi menggunakan time.strftime() |
-| 3 | json | Digunakan untuk membaca dan menyimpan data pengguna, barang, serta transaksi ke dalam file JSON agar data tetap tersimpan meskipun program ditutup |
-| 4 | PrettyTable | Digunakan untuk menampilkan data barang, pengguna, transaksi, dan invoice dalam bentuk tabel sehingga lebih mudah dibaca |
-| 5 | pwinput | Digunakan untuk menyembunyikan karakter password ketika pengguna melakukan registrasi atau login |
-| 6 | random | Merupakan library yang diimpor dalam program, tetapi belum digunakan pada fungsi yang tersedia |
+| 3 | json | Digunakan untuk membaca dan menyimpan data user, barang, serta transaksi ke dalam file JSON agar data tetap tersimpan meskipun program ditutup |
+| 4 | PrettyTable | Digunakan untuk menampilkan data barang, user, transaksi, dan invoice dalam bentuk tabel sehingga lebih mudah dibaca |
+| 5 | pwinput | Digunakan untuk menyembunyikan karakter password ketika user melakukan registrasi atau login |
+| 6 | random | Digunakan untuk menghasilkan nilai secara acak, misalnya untuk membuat kode atau nomor transaksi. |
 
 
 **Funcion**
@@ -77,12 +77,12 @@ Program Sistem Penjualan Merchandise BEM FT merupakan program berbasis Python ya
 | :--- | :---: | :---: |
 | 1 | bersih() | Membersihkan tampilan terminal sebelum menu atau informasi baru ditampilkan |
 | 2 | menu_utama() | Menampilkan menu utama yang berisi pilihan registrasi, login, dan keluar dari aplikasi |
-| 3 | registrasi() | Memproses pembuatan akun baru dan menyimpan data pengguna ke file user.json |
+| 3 | registrasi() | Memproses pembuatan akun baru dan menyimpan data user ke file user.json |
 | 4 | login() | Memeriksa username dan password serta mengarahkan user ke menu sesuai dengan perannya |
 | 5 | tampilkan_barang() | Menampilkan daftar merchandise beserta ID, nama, harga, dan stok barang |
 | 6 | tambah_barang() | Menambahkan merchandise baru ke dalam daftar barang |
 | 7 | ubah_barang() | Memperbarui nama, harga, atau stok barang yang sudah tersimpan |
-| 8 | hapus_barang() | Menghapus barang berdasarkan ID yang dipilih setelah pengguna mengonfirmasi penghapusan |
+| 8 | hapus_barang() | Menghapus barang berdasarkan ID yang dipilih setelah user mengonfirmasi penghapusan |
 | 9 | menu_crud_barang() | Menampilkan menu pengelolaan barang yang mencakup tambah, lihat, ubah, dan hapus data |
 | 10 | cetak_invoice() | Menampilkan bukti transaksi yang berisi kode transaksi, waktu, username, jenis transaksi, total pembayaran, dan sisa saldo |
 | 11 | top_up() | Menambahkan saldo user dan mencatat transaksi pengisian saldo |
